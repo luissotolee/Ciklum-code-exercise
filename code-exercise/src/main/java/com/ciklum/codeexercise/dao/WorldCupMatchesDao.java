@@ -10,4 +10,5 @@ import com.ciklum.codeexercise.entity.WorldCupMatches;
 public interface WorldCupMatchesDao {
 	List<WorldCupMatches> getWorldCupBoard();
 	void addWorldCupMatch(WorldCupMatches worldCupMatch);
+	void deleteAll();
 }

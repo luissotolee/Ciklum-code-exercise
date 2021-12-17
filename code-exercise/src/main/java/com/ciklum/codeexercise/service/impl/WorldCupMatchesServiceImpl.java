@@ -27,4 +27,9 @@ public class WorldCupMatchesServiceImpl implements WorldCupMatchesService{
 		this.worldCupMatchesDao.addWorldCupMatch(worldCupMatch);
 	}
 
+	@Override
+	public void deleteAll() {
+		this.worldCupMatchesDao.deleteAll();
+	}
+
 }

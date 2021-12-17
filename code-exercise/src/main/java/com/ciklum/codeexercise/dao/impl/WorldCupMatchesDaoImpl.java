@@ -27,4 +27,9 @@ public class WorldCupMatchesDaoImpl implements WorldCupMatchesDao{
 		this.worldCupMatchesRepository.save(worldCupMatch);
 	}
 
+	@Override
+	public void deleteAll() {
+		this.worldCupMatchesRepository.deleteAll();
+	}
+
 }
