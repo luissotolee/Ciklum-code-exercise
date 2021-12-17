@@ -1,0 +1,8 @@
+com\ciklum\codeexercise\entity\WorldCupMatches.class
+com\ciklum\codeexercise\service\impl\WorldCupMatchesServiceImpl.class
+com\ciklum\codeexercise\dao\impl\WorldCupMatchesDaoImpl.class
+com\ciklum\codeexercise\CodeExerciseApplication.class
+com\ciklum\codeexercise\repository\WorldCupMatchesRepository.class
+com\ciklum\codeexercise\service\WorldCupMatchesService.class
+com\ciklum\codeexercise\restapi\WorldCupMatchesController.class
+com\ciklum\codeexercise\dao\WorldCupMatchesDao.class
