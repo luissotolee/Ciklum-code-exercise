@@ -82,13 +82,7 @@ class CodeExerciseApplicationTests {
 		this.worldCupMatchesService.addWorldCupMatch(matchE);
 		List<String> saved = this.worldCupMatchesService.getWorldCupBoard().stream().map(WorldCupMatches::toString).collect(Collectors.toList());
 		List<String> result = saved.stream().map(match -> String.valueOf(saved.indexOf(match)+1)+". "+match).collect(Collectors.toList());
-		System.out.println(result);
-		Boolean asser = true;
-		for (int i = 0; i < result.size(); i++) {
-			if(!result.get(i).toString().equals(expectedResult.get(i).toString()))
-				asser = false;
-		}
-		assertTrue(asser);
+		assertTrue(result.equals(expectedResult));
 	}
 
 }
